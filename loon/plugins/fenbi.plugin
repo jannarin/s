@@ -1,0 +1,6 @@
+[URL Rewrite]
+http:\/\/fb\.fbstatic\.cn\/api\/ape-images\/\* _ reject
+[Rule]
+DOMAIN-SUFFIX,data-api.fenbi.com,REJECT
+[MITM]
+hostname = ke.fenbi.com,keapi.fenbi.com,login.fenbi.com,tiku.fenbi.com,algo.fenbi.com,comet.fenbi.com

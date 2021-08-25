@@ -1,0 +1,16 @@
+[Rule]
+DOMAIN-SUFFIX,data.bilibili.com,REJECT
+DOMAIN-SUFFIX,dataflow.bilibili.com,REJECT
+DOMAIN-SUFFIX,data.biliapi.com,REJECT
+DOMAIN-SUFFIX,dataflow.biliapi.com,REJECT
+
+[Remote Script]
+https://raw.githubusercontent.com/jannarin/proxy/develop/src/scripts/bilibili/bilibili.conf, tag=bilibili, enabled=true
+
+[URL Rewrite]
+^https?:\/\/ap(p|i)\.bilibili\.com\/x\/v\d{1}\/dm\/list\/seg\.so _ reject
+^https?:\/\/ap(p|i)\.bilibili\.com\/x\/share\/guide\? _ reject
+^https?:\/\/api\.bilibili\.com\/x\/report\/* _ reject
+
+[MITM]
+hostname = ap?.bilibili.com

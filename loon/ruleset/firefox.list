@@ -1,0 +1,12 @@
+DOMAIN-SUFFIX,incoming.telemetry.mozilla.org
+DOMAIN-SUFFIX,firefox.settings.services.mozilla.com
+DOMAIN-SUFFIX,shavar.services.mozilla.com
+DOMAIN-SUFFIX,location.services.mozilla.com
+DOMAIN-SUFFIX,accounts.firefox.com
+DOMAIN-SUFFIX,detectportal.firefox.com
+DOMAIN-SUFFIX,content-signature-2.cdn.mozilla.net
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,r3.o.lencr.org
+DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+DOMAIN-SUFFIX,firefox-settings-attachments.cdn.mozilla.net
+DOMAIN-SUFFIX,snippets.cdn.mozilla.net

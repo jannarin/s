@@ -1,0 +1,5 @@
+[URL Rewrite]
+183.232.25.151:443/v3/report _ reject
+
+[MITM]
+183.232.25.151
